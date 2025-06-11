@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj": {}
+    "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito\\EcommerceB\\EcommerceB\\EcommerceB.csproj": {}
   },
   "projects": {
-    "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj": {
+    "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito\\EcommerceB\\EcommerceB\\EcommerceB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
+        "projectUniqueName": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
         "projectName": "EcommerceB",
-        "projectPath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
+        "projectPath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
         "packagesPath": "C:\\Users\\Domingues\\.nuget\\packages\\",
-        "outputPath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\obj\\",
+        "outputPath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito\\EcommerceB\\EcommerceB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

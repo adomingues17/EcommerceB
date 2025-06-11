@@ -1,4 +1,9 @@
 ﻿@model List<Category>
+@if(TempData["success"] !=null){
+    <div class="alert alert-dismissible alert-warning">@TempData["success"]>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
 
 <div class="container">
     <div class="row-pt-4">

@@ -34,6 +34,7 @@ namespace EcommerceB.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["Success"] = "Category created succelly";
                 return RedirectToAction("Index");
             }            
             return View(obj);
@@ -67,6 +68,7 @@ namespace EcommerceB.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["Success"] = "Category updat succelly";
                 return RedirectToAction("Index");                
             }
             return View(obj);
@@ -88,7 +90,7 @@ namespace EcommerceB.Controllers
             return View(categoryFromDb);
         }
         [HttpPost, ActionName("Delete")]
-        public IActionResult DeletePost(int? id)
+        public IActionResult DeletePost(int id)
         {
             Category obj = _db.Categories.Find(id);
             if (obj == null)
@@ -97,6 +99,7 @@ namespace EcommerceB.Controllers
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["Success"] = "Category deleted succelly";
             return RedirectToAction("Index");
         }
 

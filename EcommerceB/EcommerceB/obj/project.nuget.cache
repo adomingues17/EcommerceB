@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IziK1Et8TSU=",
+  "dgSpecHash": "37hfhAjAyHs=",
   "success": true,
-  "projectFilePath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
+  "projectFilePath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Domingues\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Domingues\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -84,15 +84,5 @@
     "C:\\Users\\Domingues\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Domingues\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json.",
-      "projectPath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\impacta\\aspNet\\AulaOito-main\\AulaOito-main\\EcommerceB\\EcommerceB\\EcommerceB.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
