@@ -1,9 +1,5 @@
 ﻿@model List<Category>
-@if(TempData["success"] !=null){
-    <div class="alert alert-dismissible alert-warning">@TempData["success"]>
-        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-    </div>
-}
+
 
 <div class="container">
     <div class="row-pt-4">
@@ -17,10 +13,12 @@
         </div>
     </div> 
     <table class="table table-bordered table-striped">
-        <thead>        
-        <th>Category Name</th>
-        <th>Display Order</th>
-        <th>Actions</th>
+        <thead>
+            <tr>
+                <th>Category Name</th>
+                <th>Display Order</th>
+                <th>Actions</th>
+            </tr>
         </thead>
         <tbody>
             @foreach (var item in Model.OrderBy(u => u.DisplayOrder))
@@ -42,37 +40,4 @@
     </table>
 </div>
 
-
-
-
-<!--
-<div class="col-md-6">
-    <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
-        <i class="bi bi-plus-circle"></i>  Create new Category
-    </a>
-</div>
-<table class="table table-bordered table-striped">
-    <thead>
-    <th>Id</th>
-    <th>Category Name</th>
-    <th>Display Order</th>
-    <th>Actions</th>
-    </thead>
-
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.DisplayOrder</td>
-                <td>
-                    <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Edit</a>
-                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
--->
 
