@@ -15,4 +15,5 @@ public class Category
     [Range(1, 100, ErrorMessage = "Number must be between 1 to 100")]
     public int DisplayOrder { get; set; }
 
+
 }
